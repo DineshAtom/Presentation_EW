@@ -1,17 +1,25 @@
 
 html{
+  padding-left:5px;
+  padding-top: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin: 2px;
+}
+body{
   padding-left:10px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-top: 10px;
   padding-right: 10px;
   margin: 2px;
 }
 .entry-title{
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
+  padding-bottom: 29px;
   font: normal 400 2.25em/1.3334 Oswald,sans-serif;
   color: #000;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
   display: block;
   box-sizing: inherit;
 }
@@ -22,6 +30,7 @@ h2{
  .pg2{
     background-color: #eee;
     counter-reset: listicle;
+    padding: 2%;
  }
 
  em{
@@ -38,22 +47,12 @@ h2{
 .entry-title:hover{
   color: red;
 }
-.sucess {
-  padding: 2%;
-  font-size: larger;
-}
+
 h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
 }
 
- #section1{
-            display: flex;
-            flex-wrap: wrap;
-            background-color: springgreen;
-            padding: 10px;
-            margin: 10px;
- }
 
  .maintitle{
    float: inline-end;
